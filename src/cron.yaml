@@ -1,0 +1,7 @@
+cron:
+- description: weekly
+  url: /cronjobs/weekly
+  schedule: every monday 05:00
+- description: three times a day
+  url: /cronjobs/threedaily
+  schedule: every 8 hours
